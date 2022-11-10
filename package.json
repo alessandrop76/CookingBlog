@@ -1,0 +1,27 @@
+{
+  "name": "cookingblog",
+  "version": "1.0.0",
+  "description": "Recipe WebSite and Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alessandrop76/CookingBlog.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "MongoDB",
+    "Express",
+    "EJS",
+    "Mongoose",
+    "CRUD"
+  ],
+  "author": "alessandrop76",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandrop76/CookingBlog/issues"
+  },
+  "homepage": "https://github.com/alessandrop76/CookingBlog#readme"
+}
