@@ -4,7 +4,8 @@
   "description": "Recipe WebSite and Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,20 @@
   "bugs": {
     "url": "https://github.com/alessandrop76/CookingBlog/issues"
   },
-  "homepage": "https://github.com/alessandrop76/CookingBlog#readme"
+  "homepage": "https://github.com/alessandrop76/CookingBlog#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
