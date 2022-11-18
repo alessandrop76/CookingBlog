@@ -23,3 +23,34 @@ body{
 a{
     color: var(--bs-dark);
 }
+
+.category-link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: 250ms all;
+}   
+
+.category-link:hover{
+    transform: scale(1.1);
+}
+
+.category-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.category-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.category-img--large{
+    height: 280px;
+}
