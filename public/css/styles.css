@@ -54,3 +54,8 @@ a{
 .category-img--large{
     height: 280px;
 }
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+}
